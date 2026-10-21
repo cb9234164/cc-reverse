@@ -9,6 +9,8 @@ Cocos Creator 逆向工程工具，用于从编译后的 Cocos Creator 游戏中
 
 本 fork 增补了 Creator 2.4.11 的兼容修复和可复现恢复流程，包含原始 source map 源码、编译 JS 导出及验证步骤。见 [Creator 2.4.11 恢复指南](docs/creator-2.4-recovery.md) 和 [本次修改说明](docs/creator-2.4-changes.md)。项目专用流程需要从本仓库运行，不包含在 npm 发布包中。
 
+下载网页构建：双击 `download-cocos.bat` 输入网址和保存目录，或运行 `node scripts/download-cocos-web.js --url <index.html网址> --output <保存目录>`。当前支持 Creator 2.4 分包清单，详见 [网页构建下载指南](docs/download-cocos-web.md)。
+
 > 💡 **想用自然语言驱动？** 试试配套的 Claude Code 插件 [cocos-reverse-engineering-skill](https://github.com/Crain99/cocos-reverse-engineering-skill) —— 一句 `/reverse-cocos path/to/build` 完成依赖检查 / 版本识别 / JSC 解密 / 反向 / 资源编目全流程。
 
 ## 项目热度

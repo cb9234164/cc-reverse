@@ -32,6 +32,8 @@ python -c "from PIL import Image; print(Image.__version__)"
 
 选择一个**不存在或为空的输出目录**。已有工程会被拒绝，不会自动清空。输入、输出不能互相包含。
 
+//D:\cc-reverse2-downloads\OpalOracle-webGL6
+//D:\OpalOracle-webGL6-recovered2
 ```powershell
 Set-Location D:\cc-reverse2
 node .\scripts\recover-orbit-project.js `
