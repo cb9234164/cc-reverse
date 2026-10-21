@@ -315,9 +315,9 @@ function assignByType(ctx, owner, key, dataType, value) {
       registerAssetRef(ctx, owner, key, value);
       return;
     case DataTypeID.TRS:
-      // Node TRS: 10-number packed Float64 (pos[3], rot[4], scale[3]). Keep
-      // as plain array — editor re-normalises.
-      owner[key] = Array.isArray(value) ? value.slice() : value;
+      // Node TRS: pos[3], rot[4], scale[3]. The editor deserializer needs
+      // a TypedArray descriptor to reconstruct the Float64Array.
+      owner[key] = Array.isArray(value) ? { __type__: 'TypedArray', ctor: 'Float64Array', array: value.slice() } : value;
       return;
     case DataTypeID.Array_Class:
       owner[key] = Array.isArray(value)
@@ -397,10 +397,10 @@ function decodeValueType(data) {
       break;
     case 4: { // Color (uint32 → r,g,b,a)
       const rgba = data[1] >>> 0;
-      out.r = (rgba >>> 24) & 0xff;
-      out.g = (rgba >>> 16) & 0xff;
-      out.b = (rgba >>> 8) & 0xff;
-      out.a = rgba & 0xff;
+      out.r = rgba & 0xff;
+      out.g = (rgba >>> 8) & 0xff;
+      out.b = (rgba >>> 16) & 0xff;
+      out.a = (rgba >>> 24) & 0xff;
       break;
     }
     case 5: // Size

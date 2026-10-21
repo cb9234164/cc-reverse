@@ -14,6 +14,27 @@ const {
 describe('parseBundleConfig', () => {
   const baseDir = '/fake/bundle/main';
 
+  it('keeps pack hashes and literal UUID version keys separate from numeric indices', () => {
+    const cfg = parseBundleConfig({
+      uuids: ['fcmR3XADNLgJ1ByKhqcC5Z'],
+      versions: {
+        import: [0, 'asset', '0b014bcf9', 'pack', '123456789', 'numeric-pack', 'abcdef012', 'alpha-pack'],
+        native: ['fcmR3XADNLgJ1ByKhqcC5Z', 'image'],
+      },
+    }, baseDir);
+    expect(cfg.versions.import[cfg.uuids[0]]).toBe('asset');
+    expect(getImportPath(cfg, '0b014bcf9')).toBe(path.join(baseDir, 'import', '0b', '0b014bcf9.pack.json'));
+    expect(cfg.versions.import['123456789']).toBe('numeric-pack');
+    expect(cfg.versions.import.abcdef012).toBe('alpha-pack');
+    expect(cfg.versions.native[cfg.uuids[0]]).toBe('image');
+    const debugCfg = parseBundleConfig({
+      debug: true,
+      uuids: ['fcmR3XADNLgJ1ByKhqcC5Z'],
+      versions: { native: ['fcmR3XADNLgJ1ByKhqcC5Z', 'debug-image'] },
+    }, baseDir);
+    expect(debugCfg.versions.native[debugCfg.uuids[0]]).toBe('debug-image');
+  });
+
   it('expands compressed uuids when debug === false', () => {
     const raw = {
       name: 'main',

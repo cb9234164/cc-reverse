@@ -34,7 +34,7 @@ const uuidUtils = {
   },
 
   /**
-   * Decode a Creator compressed uuid. Handles plain 22-char ids and the
+   * Decode a Creator compressed uuid. Handles 22-char asset IDs, 23-char script IDs and the
    * common `@subAsset` / `@mip@format` suffixes used by Texture2D / SpriteFrame
    * / compressed natives, e.g.:
    *   20g1ukYUVPvKWKBRznAKo+@6c48a
@@ -51,7 +51,7 @@ const uuidUtils = {
       return undefined;
     }
 
-    // Preserve @suffix(es); only the 22-char head is base64-compressed.
+    // Preserve @suffix(es); only the compressed head is base64-compressed.
     let suffix = '';
     let head = base64;
     const at = base64.indexOf('@');
@@ -60,6 +60,17 @@ const uuidUtils = {
       suffix = base64.slice(at); // includes leading '@'
     }
 
+    if (head.length === 23 && /^[0-9a-f]{5}[A-Za-z0-9+/]{18}$/i.test(head)) {
+      // Five literal hex digits + nine pairs encoding three hex digits each.
+      // This is nibble-aligned, so Buffer.from(..., 'base64') loses bits.
+      let hex = head.slice(0, 5).toLowerCase();
+      for (let i = 5; i < head.length; i += 2) {
+        const lhs = BASE64_VALUES[head.charCodeAt(i)];
+        const rhs = BASE64_VALUES[head.charCodeAt(i + 1)];
+        hex += HexChars[lhs >> 2] + HexChars[((lhs & 3) << 2) | (rhs >> 4)] + HexChars[rhs & 0xF];
+      }
+      return hex.replace(/^(.{8})(.{4})(.{4})(.{4})(.{12})$/, '$1-$2-$3-$4-$5') + suffix;
+    }
     if (head.length !== 22) {
       return base64;
     }

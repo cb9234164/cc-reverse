@@ -315,7 +315,7 @@ describe('resourceProcessor issue regressions', () => {
 
     resourceProcessor.processSpriteFrame({ '0': spriteData }, '0', 'frame-raw');
 
-    expect(resourceProcessor.cacheWriteList.some((p) => p.endsWith('ui/icons/star.png'))).toBe(true);
+    expect(resourceProcessor.cacheWriteList.some((p) => p.split(path.sep).join('/').endsWith('ui/icons/star.png'))).toBe(true);
     expect(writeFileSpy).toHaveBeenCalledWith(
       'Texture/ui/icons',
       'star.png.meta',

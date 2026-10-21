@@ -55,8 +55,8 @@ function parseBundleConfig(raw, baseDir) {
   const uuids = uuidsRaw.map(u => (debug ? u : uuidUtils.decodeUuid(u)));
 
   // Versions: flat [idx, ver, idx, ver, ...] arrays per kind.
-  const importVersions = indexedVersionMap(raw.versions && raw.versions.import, uuids);
-  const nativeVersions = indexedVersionMap(raw.versions && raw.versions.native, uuids);
+  const importVersions = indexedVersionMap(raw.versions && raw.versions.import, uuids, debug);
+  const nativeVersions = indexedVersionMap(raw.versions && raw.versions.native, uuids, debug);
 
   // Paths: { "<uuidIndex>": [relPath, typeIndex, subAssetFlag?] }
   const rawPaths = raw.paths && typeof raw.paths === 'object' ? raw.paths : {};
@@ -150,14 +150,16 @@ function parseBundleConfig(raw, baseDir) {
   };
 }
 
-function indexedVersionMap(flat, uuids) {
+function indexedVersionMap(flat, uuids, debug) {
   const out = {};
   if (!Array.isArray(flat)) return out;
   for (let i = 0; i < flat.length; i += 2) {
-    const idx = parseInt(flat[i], 10);
+    const key = flat[i];
     const ver = flat[i + 1];
-    if (Number.isNaN(idx) || ver == null) continue;
-    const uuid = uuids[idx];
+    if (ver == null) continue;
+    // Numbers are UUID-table indices; strings are literal UUIDs or pack IDs.
+    const uuid = typeof key === 'number' ? uuids[key]
+      : typeof key === 'string' ? (debug ? key : uuidUtils.decodeUuid(key)) : null;
     if (uuid) out[uuid] = String(ver);
   }
   return out;

@@ -279,9 +279,14 @@ cc._RF.pop();
     expect(fooMeta.uuid).toBe(uuidUtils.decodeUuid('fcmR3XADNLgJ1ByKhqcC5Z'));
   });
 
-  it('keeps .fire for 2.4.x-bundle flavor scenes', async () => {
+  it.each([
+    ['settings.js', '{ engineVersion: "2.4.9" }', undefined, '2.4.9'],
+    ['settings.abc12.js', '{}', '2.4.11', '2.4.11'],
+    ['settings.abc12.js', '{}', undefined, '2.4.14'],
+  ])('keeps .fire and the correct Creator version with %s (%s)', async (settingsName, settings, engineVersion, expectedVersion) => {
     const src = path.join(tmp, 'bundle24-build');
-    writeFile(path.join(src, 'src', 'settings.js'), 'window._CCSettings = { engineVersion: "2.4.14" };');
+    writeFile(path.join(src, 'src', settingsName), `window._CCSettings = ${settings};`);
+    if (engineVersion) writeFile(path.join(src, 'cocos2d-js-min.abc12.js'), `cc.ENGINE_VERSION = "${engineVersion}";`);
 
     const bundleDir = path.join(src, 'assets', 'main');
     const config = {
@@ -308,6 +313,7 @@ cc._RF.pop();
     expect(fs.existsSync(path.join(out, 'assets', 'main', 'scenes', 'Main.fire'))).toBe(true);
     expect(fs.existsSync(path.join(out, 'assets', 'main', 'scenes', 'Main.fire.meta'))).toBe(true);
     expect(fs.existsSync(path.join(out, 'assets', 'main', 'scenes', 'Main.scene'))).toBe(false);
+    expect(JSON.parse(fs.readFileSync(path.join(out, 'project.json'), 'utf8')).version).toBe(expectedVersion);
   });
 
   it('folds Texture2D/SpriteFrame subAssets into ImageAsset .png.meta subMetas', async () => {

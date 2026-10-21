@@ -143,8 +143,8 @@ describe('rehydrateIFileData', () => {
         [0, 0, 1],  // objectData: [mask, value0]; offset=1 (value0 is advanced)
       ],
       instances: [
-        // Color index 4 — uint32 encoded as (r<<24 | g<<16 | b<<8 | a)
-        [0, [4, 0xFF8040FF]],
+        // Creator Color._val stores red in the least significant byte.
+        [0, [4, 0x7F4080FF]],
       ],
     });
     const out = rehydrateIFileData(doc);
@@ -153,8 +153,21 @@ describe('rehydrateIFileData', () => {
       r: 0xFF,
       g: 0x80,
       b: 0x40,
-      a: 0xFF,
+      a: 0x7F,
     });
+  });
+
+  it('serializes packed node TRS as an editor Float64Array descriptor', () => {
+    const trs = [10, 20, 0, 0, 0, 0, 1, 2, 3, 1];
+    const doc = build({
+      sharedClasses: [['cc.Node', ['_trs'], 3, DataTypeID.TRS]],
+      sharedMasks: [[0, 0, 1]],
+      instances: [[0, trs]],
+    });
+    expect(rehydrateIFileData(doc)[0]._trs).toEqual({
+      __type__: 'TypedArray', ctor: 'Float64Array', array: trs,
+    });
+    expect(rehydrateIFileData(doc)[0]._trs.array).not.toBe(trs);
   });
 
   it('handles back-references via the refs table', () => {

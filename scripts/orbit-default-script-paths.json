@@ -1,0 +1,2486 @@
+[
+  {
+    "bundle": "Game",
+    "id": "BreathingScaleAnchor",
+    "uuid": "35fef17f-289c-46d2-a0f1-059a84bf1d43",
+    "path": "assets/Game/Script/gameModel/common/BreathingScaleAnchor.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "ClickEffect",
+    "uuid": "f2e5c81f-d142-425a-b2a5-50e22282efc1",
+    "path": "assets/Game/Script/gain/ClickEffect.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "CompleteAnimationPlayer",
+    "uuid": "a4db974c-811a-461f-9ea6-2e45bac22929",
+    "path": "assets/Game/Script/gameModel/normalProgress/config/CompleteAnimationPlayer.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "CountdownController",
+    "uuid": "1ec59b27-caba-4bac-80cf-4104d184e8ac",
+    "path": "assets/Game/Script/gameModel/normalProgress/state/CountdownController.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "DialogBubble",
+    "uuid": "6ba6388e-0452-4e9e-ac88-fcfa93cde871",
+    "path": "assets/Game/Script/gameModel/normalProgress/dialog/DialogBubble.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "EditAnimInfo",
+    "uuid": "c2f4f752-b61b-4b18-802a-ae2994db7372",
+    "path": "assets/Game/Script/xbycsj/edit/EditAnimInfo.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "EditBg",
+    "uuid": "05bef41e-644b-4fe8-bdfd-07e8f6771770",
+    "path": "assets/Game/Script/xbycsj/edit/EditBg.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "EditConditionItem",
+    "uuid": "d7d33ed3-1f43-4c45-bc36-d96353e4a020",
+    "path": "assets/Game/Script/xbycsj/edit/EditConditionItem.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "EditConditionLayout",
+    "uuid": "97ea9d90-7d5b-4b97-b1b2-216dfa5afd02",
+    "path": "assets/Game/Script/xbycsj/edit/EditConditionLayout.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "EditConst",
+    "uuid": "4d69764a-34b6-46b9-94c1-c89d887003ed",
+    "path": "assets/Game/Script/xbycsj/edit/EditConst.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "EditFindItem",
+    "uuid": "aa637269-17c4-46af-9dde-09aaee03d172",
+    "path": "assets/Game/Script/xbycsj/edit/EditFindItem.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "EditFindLayout",
+    "uuid": "c6c72331-5480-45a4-9157-42be60c6b13d",
+    "path": "assets/Game/Script/xbycsj/edit/EditFindLayout.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "FindItem",
+    "uuid": "0ac187d1-6aad-425e-a093-66f9b9f2c796",
+    "path": "assets/Game/Script/xbycsj/level/FindItem.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "FlowEffects",
+    "uuid": "32360ccc-86a2-4262-a941-1bab8ac5c0a1",
+    "path": "assets/Game/Script/gameModel/stepFlow/FlowEffects.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "FlowInput",
+    "uuid": "b3bec86a-1c75-4446-9eb1-cd77cc7bc4c0",
+    "path": "assets/Game/Script/gameModel/stepFlow/FlowInput.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "FullScreenAdapt",
+    "uuid": "28c51bfc-b201-49aa-bda4-318bc823f28f",
+    "path": "assets/Game/Script/gameModel/normalProgress/scene/FullScreenAdapt.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "GymCleanupConfig",
+    "uuid": "3309216f-6855-4b76-8aaa-78d65b008832",
+    "path": "assets/Game/Script/gameModel/stepFlow/GymCleanupConfig.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "InteractionRouter",
+    "uuid": "d3bbdaaa-7f72-44a2-b9f3-97694abbf7ee",
+    "path": "assets/Game/Script/gameModel/normalProgress/interaction/InteractionRouter.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "ItemListController",
+    "uuid": "8e9b2c62-1ad4-4795-a7e2-86754c8c41db",
+    "path": "assets/Game/Script/gameModel/normalProgress/items/ItemListController.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "ItemPaginationController",
+    "uuid": "c5d9f291-bc99-4140-843e-0e0a564f439a",
+    "path": "assets/Game/Script/gameModel/normalProgress/items/ItemPaginationController.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "LayerVisibilityTransition",
+    "uuid": "b9d723d3-8f0e-4a8b-b745-128f7c168729",
+    "path": "assets/Game/Script/gameModel/normalProgress/scene/LayerVisibilityTransition.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "LevelConfigLoader",
+    "uuid": "2f6504d8-e5be-4dad-af5a-5c23e38cf068",
+    "path": "assets/Game/Script/gameModel/normalProgress/config/LevelConfigLoader.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "LevelConfigTypes",
+    "uuid": "cb55249d-78cd-4118-bbd1-567a75db2895",
+    "path": "assets/Game/Script/gameModel/normalProgress/config/LevelConfigTypes.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "LevelDialogManager",
+    "uuid": "782abd2e-53c6-4844-9fbf-ca007d39eaac",
+    "path": "assets/Game/Script/gameModel/normalProgress/dialog/LevelDialogManager.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "LevelSoundManager",
+    "uuid": "e95bf0a4-50df-4732-8f42-6bbaaa49d15b",
+    "path": "assets/Game/Script/gameModel/normalProgress/audio/LevelSoundManager.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "LightTickRunner",
+    "uuid": "85fd357d-de84-45c5-b3d7-81c8d1e06ea6",
+    "path": "assets/Game/Script/gameModel/normalProgress/config/LightTickRunner.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "MaskStrokeRenderer",
+    "uuid": "35885f9a-44b9-456f-8036-aa1863100654",
+    "path": "assets/Game/Script/gameModel/normalProgress/coverage/MaskStrokeRenderer.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "MiniGameView",
+    "uuid": "e90081db-aa17-4bec-89a1-91e6cd24e764",
+    "path": "assets/Game/minigame/scripts/MiniGameView.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressCoverageTarget",
+    "uuid": "e1a3445d-e87b-4102-b42e-ec036524e0a4",
+    "path": "assets/Game/Script/gameModel/normalProgress/coverage/NormalProgressCoverageTarget.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressCoverageTool",
+    "uuid": "66e31be4-fcd1-416f-bb61-04152c82c171",
+    "path": "assets/Game/Script/gameModel/normalProgress/interaction/NormalProgressCoverageTool.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressDialogConfig",
+    "uuid": "c5d9cd43-eff2-4a27-93a3-77ec82becd12",
+    "path": "assets/Game/Script/gameModel/normalProgress/types/NormalProgressDialogConfig.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressDragSource",
+    "uuid": "3dd97809-f307-43d4-b1c0-939af74c392a",
+    "path": "assets/Game/Script/gameModel/normalProgress/interaction/NormalProgressDragSource.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressDropTarget",
+    "uuid": "923ab18d-f9da-45f2-b2b8-43f89e442f87",
+    "path": "assets/Game/Script/gameModel/normalProgress/interaction/NormalProgressDropTarget.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressHostBridge",
+    "uuid": "ba9315c8-38ba-448b-bfd0-05aa006cf541",
+    "path": "assets/Game/Script/gameModel/normalProgress/bridge/NormalProgressHostBridge.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressItemPager",
+    "uuid": "2c5a13de-7b42-4a8f-a9ce-c5b68f0e3821",
+    "path": "assets/Game/Script/gameModel/normalProgress/items/NormalProgressItemPager.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressItem",
+    "uuid": "26301935-7e9e-4159-b541-48ee6db3f9db",
+    "path": "assets/Game/Script/gameModel/normalProgress/items/NormalProgressItem.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressLevelController",
+    "uuid": "4ca50787-c528-4558-85d4-a98b20db1e5f",
+    "path": "assets/Game/Script/gameModel/normalProgress/core/NormalProgressLevelController.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressLevelEntry",
+    "uuid": "b3f5cf1c-d3c1-403b-b689-56d6b3b75af4",
+    "path": "assets/Game/Script/gameModel/normalProgress/bridge/NormalProgressLevelEntry.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressLongPressTarget",
+    "uuid": "101b2711-a5e2-493d-855e-0ca705c17028",
+    "path": "assets/Game/Script/gameModel/normalProgress/interaction/NormalProgressLongPressTarget.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressPrefabLoader",
+    "uuid": "20b32711-4190-42f5-9a4f-da8da410749a",
+    "path": "assets/Game/Script/gameModel/normalProgress/bridge/NormalProgressPrefabLoader.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressPresetBootstrap",
+    "uuid": "2464baf0-a7de-41b8-869e-bd9aa4388664",
+    "path": "assets/Game/Script/gameModel/normalProgress/config/NormalProgressPresetBootstrap.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressRuntimeValidator",
+    "uuid": "0adbc753-1310-4d86-aae8-683dd519890a",
+    "path": "assets/Game/Script/gameModel/normalProgress/config/NormalProgressRuntimeValidator.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressRuntime",
+    "uuid": "a8a781fa-b7c6-4d53-b868-cd1ac81fa805",
+    "path": "assets/Game/Script/gameModel/normalProgress/core/NormalProgressRuntime.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressSceneLayer",
+    "uuid": "89eeebf6-e730-4d86-bf07-d340a8ed8b3b",
+    "path": "assets/Game/Script/gameModel/normalProgress/scene/NormalProgressSceneLayer.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressStepConfig",
+    "uuid": "a992b117-482b-4879-8dad-7250e845843e",
+    "path": "assets/Game/Script/gameModel/normalProgress/types/NormalProgressStepConfig.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressStoryVideo",
+    "uuid": "1f3cecda-e1a7-47ed-b137-2e8273540962",
+    "path": "assets/Game/Script/gameModel/normalProgress/scene/NormalProgressStoryVideo.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressSwipeTarget",
+    "uuid": "f349a77a-ed1b-43bc-a958-fd93b07dc1b9",
+    "path": "assets/Game/Script/gameModel/normalProgress/interaction/NormalProgressSwipeTarget.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NormalProgressTypes",
+    "uuid": "4ecf87a6-7e52-45e1-b96b-4936f35e2b76",
+    "path": "assets/Game/Script/gameModel/normalProgress/types/NormalProgressTypes.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "NpcFaceController",
+    "uuid": "0eb2092b-1d0f-47cf-88bb-bdedc57da50d",
+    "path": "assets/Game/Script/gameModel/normalProgress/npc/NpcFaceController.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "PauseReasonTracker",
+    "uuid": "a3287a12-1151-4ad7-8119-7be3a643deb6",
+    "path": "assets/Game/Script/gameModel/normalProgress/state/PauseReasonTracker.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "ProgressStateMachine",
+    "uuid": "69b83aae-b135-4b2d-b41a-d1796989d902",
+    "path": "assets/Game/Script/gameModel/normalProgress/state/ProgressStateMachine.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "ResHelp",
+    "uuid": "1212c18d-72f1-4f8f-8862-c24919a8266e",
+    "path": "assets/Game/Script/xbycsj/level/ResHelp.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "SceneLayerController",
+    "uuid": "40b8b627-575f-4f3e-ab47-165f0bb925b6",
+    "path": "assets/Game/Script/gameModel/normalProgress/scene/SceneLayerController.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "SpineActor",
+    "uuid": "8b34d0ec-c9b8-4b95-bb09-1b88a10acfed",
+    "path": "assets/Game/Script/gameModel/stepFlow/SpineActor.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "StepFlowLevelBase",
+    "uuid": "2dc4bbeb-d5cc-4520-9d81-d2a39647d8fc",
+    "path": "assets/Game/Script/gameModel/stepFlow/StepFlowLevelBase.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "StepFlowTypes",
+    "uuid": "8f38be3f-bb9e-4165-9b59-7d47513a476f",
+    "path": "assets/Game/Script/gameModel/stepFlow/StepFlowTypes.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "StepFlow",
+    "uuid": "ddf5e8b7-684b-46bf-bdfb-5fa00c27bc7f",
+    "path": "assets/Game/Script/gameModel/stepFlow/StepFlow.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "StepOperationGate",
+    "uuid": "ca272f1c-0014-4c5a-b458-c346574af373",
+    "path": "assets/Game/Script/gameModel/normalProgress/interaction/StepOperationGate.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "StepProgressController",
+    "uuid": "7d291fac-d124-4bfb-b1ff-e1f354717893",
+    "path": "assets/Game/Script/gameModel/normalProgress/state/StepProgressController.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "SuccessAction",
+    "uuid": "0a733389-7bcb-4a75-8b5a-2c35684e6b8a",
+    "path": "assets/Game/Script/gameModel/normalProgress/config/SuccessAction.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "ToolCtrl",
+    "uuid": "5472cf13-ae15-472c-ac73-201492c63aee",
+    "path": "assets/Game/Script/xbycsj/level/ToolCtrl.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "VideoFullScreen",
+    "uuid": "0d6cfa01-05d4-4670-9774-a723eb7c6946",
+    "path": "assets/Game/Script/gameModel/normalProgress/scene/VideoFullScreen.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "WeightedCoverageGrid",
+    "uuid": "2dfaf280-3c2a-4ad5-ac24-a9d9a0f38c78",
+    "path": "assets/Game/Script/gameModel/normalProgress/coverage/WeightedCoverageGrid.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "Yan1_LevelBase",
+    "uuid": "e4c13379-baab-4722-a8ca-8a25fff3da57",
+    "path": "assets/Game/Script/xbycsj/level/Yan1_LevelBase.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "Yan1_LevelMap",
+    "uuid": "58ff1f4a-6ecc-4961-94c1-85efe8cb83af",
+    "path": "assets/Game/Script/xbycsj/level/Yan1_LevelMap.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "ZnzCtrl",
+    "uuid": "9d5be786-e600-4b25-8a42-984089beca90",
+    "path": "assets/Game/Script/xbycsj/level/ZnzCtrl.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "box_reword_view_xbycsj",
+    "uuid": "d5272f60-ed06-486d-9da1-56c41dd786f6",
+    "path": "assets/Game/Script/xbycsj/uiCom/box_reword_view_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "cdkey",
+    "uuid": "23e45029-1114-40ca-ab45-7bdddfc43a73",
+    "path": "assets/Game/Script/cdkey/cdkey.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "cuiGengView",
+    "uuid": "0a914859-94bb-4bb3-8799-3a92258f3aa8",
+    "path": "assets/Game/Script/review/cuiGengView.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "gain",
+    "uuid": "6ee9d84b-5535-49d4-9680-98b452a5e363",
+    "path": "assets/Game/Script/gain/gain.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "get_tool_view_xbycsj",
+    "uuid": "8fff0f79-4739-43f6-9e24-2f4edd4bcc7c",
+    "path": "assets/Game/Script/xbycsj/uiCom/get_tool_view_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "guide_view_xbycsj",
+    "uuid": "cacdcd41-38ab-4936-b6ed-2db9d54d6708",
+    "path": "assets/Game/Script/xbycsj/uiCom/guide_view_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "guide",
+    "uuid": "84dd116b-ea9d-43e3-ae56-62c6226a7ef0",
+    "path": "assets/Game/Script/guide/guide.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "home",
+    "uuid": "dd70801d-cf11-48b3-b081-bf261aa05a49",
+    "path": "assets/Game/Script/home/home.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "inviteFriends",
+    "uuid": "dde590ba-f203-44c4-9ded-3f6c38518fb3",
+    "path": "assets/Game/Script/inviteFriends/inviteFriends.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "language",
+    "uuid": "00c4e5e9-36ed-436e-93ee-4352b4621514",
+    "path": "assets/Game/Script/setting/language.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelBase",
+    "uuid": "53d8e1d2-ddea-47d3-901d-2f6800997f69",
+    "path": "assets/Game/Script/levelMgr/levelBase.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelDrag",
+    "uuid": "e1fb10cf-2d32-41a4-b501-ae3b6f3d03df",
+    "path": "assets/Game/Script/levelMgr/levelDrag.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelFault",
+    "uuid": "abe14dcc-0ccc-4bd3-a54d-39a295f3c0d0",
+    "path": "assets/Game/Script/levelMgr/levelFault.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelFullGame",
+    "uuid": "102db9ff-72e9-4c27-b8f9-ec6290b059fe",
+    "path": "assets/Game/Script/levelMgr/levelFullGame.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelGameEmpty",
+    "uuid": "b4f090af-1de0-4426-abaf-7e3b134bd2a1",
+    "path": "assets/Game/Script/levelMgr/levelGameEmpty.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelGame",
+    "uuid": "8015f030-a607-48d9-83e2-1a9f15fb6400",
+    "path": "assets/Game/Script/levelMgr/levelGame.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelHint",
+    "uuid": "91ae0976-6308-441a-ba3d-ec44a19b9499",
+    "path": "assets/Game/Script/levelMgr/levelHint.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelHorrorHint",
+    "uuid": "ae8ea764-9afd-4f00-9084-e69da1daf264",
+    "path": "assets/Game/Script/levelMgr/levelHorrorHint.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelInfo",
+    "uuid": "e774e842-507a-4038-9d4f-772ff4dcdc0c",
+    "path": "assets/Game/Script/levelMgr/levelInfo.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelItem",
+    "uuid": "e8525ae5-239d-49d1-96a7-726c51f44865",
+    "path": "assets/Game/Script/levelMgr/levelItem.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelLock",
+    "uuid": "176f994e-2c32-46b4-80d2-899ff186c014",
+    "path": "assets/Game/Script/levelLock/levelLock.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelLoset_hz",
+    "uuid": "15f707bc-a891-45a8-9ca8-f4f28bf424d1",
+    "path": "assets/Game/Script/levelMgr/levelLoset_hz.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelLost2",
+    "uuid": "d0aaf29a-1546-41bf-8c60-cc29e0ff9f87",
+    "path": "assets/Game/Script/levelMgr/levelLost2.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelLost",
+    "uuid": "dce074b2-bb64-4ec9-9004-c413df14cf6d",
+    "path": "assets/Game/Script/levelMgr/levelLost.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelMUG",
+    "uuid": "bf54fc10-e408-4eb2-a231-304a2bf82bdc",
+    "path": "assets/Game/Script/levelMgr/levelMUG.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelMap",
+    "uuid": "b6a1476a-0a01-43e7-b20a-8bb3df22b566",
+    "path": "assets/Game/Script/levelMgr/levelMap.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelMgrCell",
+    "uuid": "fb519863-0f87-4db9-92f3-0ebefff6f6f6",
+    "path": "assets/Game/Script/levelMgr/levelMgrCell.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelMgr_xbycsj",
+    "uuid": "36a6d77c-6d79-418e-85a6-3ba5d4ceaa5b",
+    "path": "assets/Game/Script/xbycsj/uiCom/levelMgr_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelMgr",
+    "uuid": "be5736e1-1d90-41e5-b7fe-26669b0a6c0b",
+    "path": "assets/Game/Script/levelMgr/levelMgr.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelNoramlClick",
+    "uuid": "57515643-72a1-4882-b942-4bfac589b494",
+    "path": "assets/Game/Script/levelMgr/levelNoramlClick.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelPzlDrag",
+    "uuid": "6e307d38-3b1c-4eef-aadd-46d0d9e024bc",
+    "path": "assets/Game/Script/levelMgr/levelPzlDrag.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelShare",
+    "uuid": "70455bef-424c-48d0-a0e9-96345b105c65",
+    "path": "assets/Game/Script/levelMgr/levelShare.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelStepBase",
+    "uuid": "30af74cc-e9f7-42f2-80a0-6c62df7dc815",
+    "path": "assets/Game/Script/levelMgr/levelStepBase.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelTime",
+    "uuid": "b5bba019-ed86-450d-90d5-edf29a048388",
+    "path": "assets/Game/Script/levelMgr/levelTime.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelTip2",
+    "uuid": "00b5b4ad-9d79-4353-9904-9d8a8357284a",
+    "path": "assets/Game/Script/levelMgr/levelTip2.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelTip",
+    "uuid": "77cfe530-d339-4afd-8dbd-ce670906b660",
+    "path": "assets/Game/Script/levelMgr/levelTip.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelTool_hz",
+    "uuid": "5022d369-984d-47d7-b3b9-769411b8610d",
+    "path": "assets/Game/Script/levelMgr/levelTool_hz.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelTypeSelect",
+    "uuid": "02bde4d5-b2ce-4ebd-a410-dd6b60998bc6",
+    "path": "assets/Game/Script/levelMgr/levelTypeSelect.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelWin2",
+    "uuid": "b0b6a772-b148-4f1e-b8d2-e08a2b992795",
+    "path": "assets/Game/Script/levelMgr/levelWin2.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelWin_dog",
+    "uuid": "cfd67f98-6266-4725-a184-3f29ee2051b1",
+    "path": "assets/Game/Script/levelMgr/levelWin_dog.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelWin_hz",
+    "uuid": "5cddb375-a69b-4146-bac1-6a452e283973",
+    "path": "assets/Game/Script/levelMgr/levelWin_hz.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "levelWin",
+    "uuid": "42330e88-94e6-4056-9643-f59399d96048",
+    "path": "assets/Game/Script/levelMgr/levelWin.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "level_game_xbycsj",
+    "uuid": "998d6a77-4b8d-483d-8cfb-e04ab80d98ef",
+    "path": "assets/Game/Script/xbycsj/uiCom/level_game_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "loading",
+    "uuid": "254bccfa-c919-4cc1-bc89-c696d91bdabf",
+    "path": "assets/Game/Script/loading/loading.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "lvInfo",
+    "uuid": "757571cd-19cc-4f8f-a8fb-ff38111439f7",
+    "path": "assets/Game/Script/home/lvInfo.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "moreGame",
+    "uuid": "92f197ee-b0e6-4428-ab04-72af546ca2fc",
+    "path": "assets/Game/Script/moreGame/moreGame.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "passGift",
+    "uuid": "3cae1164-1f28-47bb-af4e-22da63316ad2",
+    "path": "assets/Game/Script/passGift/passGift.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "rank_xbycsj",
+    "uuid": "6aa7c21c-be57-4a78-a21f-318f56592921",
+    "path": "assets/Game/Script/xbycsj/uiCom/rank_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "reviewView",
+    "uuid": "18ed0785-ebe8-4672-bd31-d0c785672d98",
+    "path": "assets/Game/Script/review/reviewView.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "setting",
+    "uuid": "c871b309-a9f3-4779-800f-172e81d361e1",
+    "path": "assets/Game/Script/setting/setting.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "sidebarCard",
+    "uuid": "18d2bac5-2120-4e06-8a42-a7244c0370af",
+    "path": "assets/Game/Script/sidebarCard/sidebarCard.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "sign",
+    "uuid": "baf8689c-cd53-4a0c-84a7-cce60cc0e629",
+    "path": "assets/Game/Script/sign/sign.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "stop_xbycsj",
+    "uuid": "faf9125c-0120-49cd-86b6-4c47dc43b373",
+    "path": "assets/Game/Script/xbycsj/uiCom/stop_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "tipGet",
+    "uuid": "73c6f0e0-d3ab-44f1-9b2d-c2217208ffae",
+    "path": "assets/Game/Script/tip/tipGet.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "tip_view_xbycsj",
+    "uuid": "c16242a3-632e-41b1-8078-2de38c72c46c",
+    "path": "assets/Game/Script/xbycsj/uiCom/tip_view_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "tip",
+    "uuid": "7c373645-576c-446c-aab1-1bbc78dbb7dd",
+    "path": "assets/Game/Script/tip/tip.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "unlockTip",
+    "uuid": "b242f955-d3a2-4cd7-8437-c10d1c2192eb",
+    "path": "assets/Game/Script/unlockTip/unlockTip.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "vitGetEndless",
+    "uuid": "a013777a-53e3-41ac-82ef-f87c91f9072d",
+    "path": "assets/Game/Script/vit/vitGetEndless.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "vitGet",
+    "uuid": "64c05440-8f33-4d7b-9728-70ad3fc6d550",
+    "path": "assets/Game/Script/vit/vitGet.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "vitOnline",
+    "uuid": "007ac77a-9fef-4020-ad12-2cae6d4233c5",
+    "path": "assets/Game/Script/vit/vitOnline.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "vit",
+    "uuid": "5f0c53cd-12a6-494d-a2d5-36fea8c11d0e",
+    "path": "assets/Game/Script/vit/vit.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "win_view_xbycsj",
+    "uuid": "a33a9ec9-3df3-4f2a-970e-f8f9aed535ae",
+    "path": "assets/Game/Script/xbycsj/uiCom/win_view_xbycsj.ts"
+  },
+  {
+    "bundle": "Game",
+    "id": "zmTip",
+    "uuid": "40c3d6dd-da90-43ec-92e1-51ccd93cb657",
+    "path": "assets/Game/Script/zmTip/zmTip.ts"
+  },
+  {
+    "bundle": "googleplay",
+    "id": "zs.native",
+    "uuid": "a7b17f5f-f23e-4c6c-81a4-515469f805fb",
+    "path": "assets/googleplay/scripts/zs.native.js"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "FindWordStrokeItem",
+    "uuid": "9e833cb4-63fb-4689-a99e-bde7e1b1410e",
+    "path": "assets/Level/levelCom/knzmxScript/zx/FindWordStrokeItem.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "FlyCoinCom",
+    "uuid": "81458200-1a6f-4cd1-99e1-786abeb65c49",
+    "path": "assets/Level/levelCom/knzmxScript/FlyCoinCom.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "GameUtil",
+    "uuid": "740fff86-ea07-4ce0-84d8-2459da5866b1",
+    "path": "assets/Level/levelCom/knzmxScript/GameUtil.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "JzlrPress",
+    "uuid": "33d1220c-a8e0-4170-ba42-6ce9589073c2",
+    "path": "assets/Level/levelCom/knzmxScript/JzlrPress.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "LevelDrBase",
+    "uuid": "da8bf826-167b-4d26-94aa-5e3a2c2bd910",
+    "path": "assets/Level/levelCom/drScript/LevelDrBase.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "LevelDrag",
+    "uuid": "69f90033-2ed9-46bf-bad2-83d27168ca6d",
+    "path": "assets/Level/levelCom/knzmxScript/LevelDrag.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "LevelMove",
+    "uuid": "90f300d9-1dc8-4aea-9c57-65f97c5da1fe",
+    "path": "assets/Level/levelCom/knzmxScript/LevelMove.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "LongPress",
+    "uuid": "a547d3d1-9c51-4ca0-b7da-1e154b81213e",
+    "path": "assets/Level/levelCom/knzmxScript/LongPress.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "NodeDragComNew1",
+    "uuid": "5efd37d9-f969-4122-966f-067260f93863",
+    "path": "assets/Level/levelCom/knzmxScript/NodeDragComNew1.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "NodeDragComNew",
+    "uuid": "4031d3b3-8347-49c6-a84b-fe05a74ae5ed",
+    "path": "assets/Level/levelCom/knzmxScript/NodeDragComNew.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "NumScrollEffect",
+    "uuid": "3951dc3a-8908-4b89-b1e0-e55b17861142",
+    "path": "assets/Level/levelCom/knzmxScript/NumScrollEffect.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "QuickClickCom",
+    "uuid": "0d776181-1935-4bab-8ed0-8dadba112d32",
+    "path": "assets/Level/levelCom/knzmxScript/QuickClickCom.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "ScratchTool",
+    "uuid": "8e534e3e-539b-49c0-b400-e7716c72c3c7",
+    "path": "assets/Level/levelCom/knzmxScript/ScratchTool.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "SpriteEx",
+    "uuid": "087b6607-13fe-4f2b-a33f-cadfdd8683de",
+    "path": "assets/Level/levelCom/knzmxScript/SpriteEx.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "TextLabel",
+    "uuid": "349b4f0f-d8d6-4bc5-ba74-8d4a3e7651a6",
+    "path": "assets/Level/levelCom/knzmxScript/TextLabel.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "ThroughInputEvents",
+    "uuid": "9ca3509b-26a0-4f28-a866-c34be3fffd2a",
+    "path": "assets/Level/levelCom/knzmxScript/ThroughInputEvents.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "TouchFriction",
+    "uuid": "a9e3e16f-701e-4a00-b94e-2ae1e3ce9b5e",
+    "path": "assets/Level/levelCom/knzmxScript/TouchFriction.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "ToucheDirectionExtension",
+    "uuid": "22959f04-6b4f-45d0-b417-dcd2b3f37fb3",
+    "path": "assets/Level/levelCom/knzmxScript/ToucheDirectionExtension.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "ToucheDirection",
+    "uuid": "3be6d5c4-bf1f-49df-b63e-ecaed3250988",
+    "path": "assets/Level/levelCom/knzmxScript/ToucheDirection.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "ToucheRotate",
+    "uuid": "c41570ca-d200-4225-b138-9f6ec40c07e3",
+    "path": "assets/Level/levelCom/knzmxScript/ToucheRotate.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "hzlx_item",
+    "uuid": "74a0e1ed-051a-4d37-aa4f-01d1f8d2ba72",
+    "path": "assets/Level/levelCom/knzmxScript/hzlx/hzlx_item.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "hzlxxc_world",
+    "uuid": "fc9db039-fe6d-4f46-ab1e-dbf70a224c21",
+    "path": "assets/Level/levelCom/knzmxScript/hzlxxc/hzlxxc_world.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "hzlxxc",
+    "uuid": "39bd3a9b-528c-44a1-9731-e15ae4530a5a",
+    "path": "assets/Level/levelCom/knzmxScript/hzlxxc/hzlxxc.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "illegality",
+    "uuid": "8a8cf4c0-2e81-4b04-9fca-2a34a1b0ab1d",
+    "path": "assets/Level/levelCom/script/illegality.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "level_hzlx",
+    "uuid": "6f176213-dcf7-44c2-a359-033bf77af198",
+    "path": "assets/Level/levelCom/knzmxScript/hzlx/level_hzlx.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "lpdhzCfg",
+    "uuid": "8a23bf09-e083-452b-abcb-bc7e456f8ac8",
+    "path": "assets/Level/levelCom/knzmxScript/zx/lpdhzCfg.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "zx_Level1",
+    "uuid": "8695b1cc-9989-498f-a2db-e3652e2f50bc",
+    "path": "assets/Level/levelCom/knzmxScript/zx/zx_Level1.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "zx_WorldTag1",
+    "uuid": "8a36e6fa-9c15-4319-89eb-46e3c5cb77b9",
+    "path": "assets/Level/levelCom/knzmxScript/zx/zx_WorldTag1.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "zx_level_fdjDrag",
+    "uuid": "6935e0b3-63f6-414c-bf90-dde88ed5910e",
+    "path": "assets/Level/levelCom/knzmxScript/zx_level_fdjDrag.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "zx_level_lxcc",
+    "uuid": "aa97ada5-140c-4405-86c6-a691449ce6c3",
+    "path": "assets/Level/levelCom/knzmxScript/zx/zx_level_lxcc.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "zx_level_zzry",
+    "uuid": "c46f552a-498d-4a52-afe3-bbb3d6e47c0a",
+    "path": "assets/Level/levelCom/knzmxScript/zx/zx_level_zzry.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "zx_lxcc_item",
+    "uuid": "f7ba4e76-f568-40e6-8a1b-e4ecb4f0f6cd",
+    "path": "assets/Level/levelCom/knzmxScript/zx/zx_lxcc_item.ts"
+  },
+  {
+    "bundle": "levelCom",
+    "id": "zx_mapControl",
+    "uuid": "3f9fc0b5-b6fc-4a65-8eca-ee82f2d87716",
+    "path": "assets/Level/levelCom/zxScript/zx_mapControl.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Ball",
+    "uuid": "59556f0e-d2cc-4c8e-85bf-938002ce929b",
+    "path": "assets/LevelScripts/Ball.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "ColliderCtrl",
+    "uuid": "25c6e731-bb11-4f98-b4b6-cc1cbda0e155",
+    "path": "assets/LevelScripts/ColliderCtrl.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "DirectionTouchMove",
+    "uuid": "c1d1ab70-ed13-4b9d-8b84-c7afbd415111",
+    "path": "assets/LevelScripts/DirectionTouchMove.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "DllElectricWire",
+    "uuid": "e9f850de-f6a4-461f-b9d7-2e31c6ecfaf5",
+    "path": "assets/LevelScripts/DllElectricWire.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "DllElectricity",
+    "uuid": "fe19f6b3-576b-4c33-a0e8-5f26bd85c6f0",
+    "path": "assets/LevelScripts/DllElectricity.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "DllGameLevel",
+    "uuid": "b8a359f8-013b-4304-998b-2ab712a1efa9",
+    "path": "assets/LevelScripts/DllGameLevel.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "DllGraphics",
+    "uuid": "0da23c0b-b848-484f-aa9e-23553535e054",
+    "path": "assets/LevelScripts/DllGraphics.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "DragCom",
+    "uuid": "d0809350-36ac-4585-9889-451fd53a09c6",
+    "path": "assets/LevelScripts/DragCom.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Knzmx_Level24",
+    "uuid": "95ce6edf-4ee0-41ff-a117-713581b0c7ca",
+    "path": "assets/LevelScripts/Knzmx_Level24.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level10",
+    "uuid": "942fcc0d-349f-4890-a620-f02e1247e408",
+    "path": "assets/LevelScripts/Level10.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level11",
+    "uuid": "26a26c10-593f-4245-b918-e71ec4dd6485",
+    "path": "assets/LevelScripts/Level11.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level12",
+    "uuid": "eecd7dd8-1a65-422f-9cfe-86218aefbb4f",
+    "path": "assets/LevelScripts/Level12.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level13",
+    "uuid": "6364cd0d-27ea-42ae-a227-0373339afe83",
+    "path": "assets/LevelScripts/Level13.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level15",
+    "uuid": "17ed059b-1579-415e-a615-2ec69928a58b",
+    "path": "assets/LevelScripts/Level15.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level16",
+    "uuid": "feb6fb60-7bef-4fb7-b613-17673ae44fdb",
+    "path": "assets/LevelScripts/Level16.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level17",
+    "uuid": "66b39df6-8b79-4b4d-b3ca-ec631757c987",
+    "path": "assets/LevelScripts/Level17.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level18",
+    "uuid": "42915c40-331c-4f45-ac14-20353bb7e6c7",
+    "path": "assets/LevelScripts/Level18.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level19",
+    "uuid": "29861a50-f110-4f4b-af3d-a9e494eb40c2",
+    "path": "assets/LevelScripts/Level19.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level1",
+    "uuid": "a834d192-eed9-4d8f-b39c-2c6a7504f588",
+    "path": "assets/LevelScripts/Level1.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level20",
+    "uuid": "0e3c587e-d406-41e5-84cc-cec04bb99897",
+    "path": "assets/LevelScripts/Level20.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level23",
+    "uuid": "ed4022dd-c150-41a1-a8b4-df31dd1c6546",
+    "path": "assets/LevelScripts/Level23.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level24",
+    "uuid": "a389799d-53c6-4085-969e-3b0de8de46c1",
+    "path": "assets/LevelScripts/Level24.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level25",
+    "uuid": "0edf5727-7079-4a05-9f58-d3b5a489be8e",
+    "path": "assets/LevelScripts/Level25.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level2",
+    "uuid": "0629b86b-1fe9-437f-9b6d-89d2569fa4bc",
+    "path": "assets/LevelScripts/Level2.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level31",
+    "uuid": "4578d930-4b20-4ed0-a165-b59d9f74e294",
+    "path": "assets/LevelScripts/Level31.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level32",
+    "uuid": "18180bca-3521-40f0-8209-8769958d1370",
+    "path": "assets/LevelScripts/Level32.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level33",
+    "uuid": "8a6c6989-c294-45ed-8fd3-2538c2c0541e",
+    "path": "assets/LevelScripts/Level33.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level3",
+    "uuid": "c4a1e36b-7b81-4bc6-879c-aa7c645b786c",
+    "path": "assets/LevelScripts/Level3.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level41",
+    "uuid": "fca57227-0636-484d-b434-e8f5ea1bf6eb",
+    "path": "assets/LevelScripts/Level41.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level4",
+    "uuid": "34305391-5c3e-4a77-bfd8-716381f96283",
+    "path": "assets/LevelScripts/Level4.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level53",
+    "uuid": "77b0ffa7-72e2-49a2-8eca-5397f32238b8",
+    "path": "assets/LevelScripts/Level53.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level5",
+    "uuid": "abf7f1e2-42a4-4fc1-b036-c4b96bc210a6",
+    "path": "assets/LevelScripts/Level5.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level6",
+    "uuid": "a0be7c07-c289-4a8c-ad4b-a847700eefd3",
+    "path": "assets/LevelScripts/Level6.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level7",
+    "uuid": "b4910185-e7ae-47ba-a6e1-71b492036263",
+    "path": "assets/LevelScripts/Level7.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level8",
+    "uuid": "1be7dbd7-3bbc-488b-a588-86ccd52b831f",
+    "path": "assets/LevelScripts/Level8.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level9",
+    "uuid": "99469030-6760-41ae-91d8-0a0a72faa8ee",
+    "path": "assets/LevelScripts/Level9.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level_14",
+    "uuid": "a783cd1c-396b-4aee-a57a-5808ff58074c",
+    "path": "assets/LevelScripts/Level_14.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "Level_T",
+    "uuid": "b595e8eb-8dd8-4585-b8ab-57c669c0a3a2",
+    "path": "assets/LevelScripts/Level_T.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "NodeDragCom_24",
+    "uuid": "7a69de72-d2fd-4ecb-8c4d-f1828eea4c65",
+    "path": "assets/LevelScripts/NodeDragCom_24.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "NodeDragCom",
+    "uuid": "94020eca-af71-4e97-b045-f4c9863058c7",
+    "path": "assets/LevelScripts/NodeDragCom.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "ScratchMask",
+    "uuid": "5e823d7e-7654-4f78-b837-9ec6637c7b5c",
+    "path": "assets/LevelScripts/ScratchMask.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "SoundManager",
+    "uuid": "51a1e1c8-bff4-48a0-97fe-aa8630e3ea25",
+    "path": "assets/LevelScripts/SoundManager.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "ToiletBrushDrag24",
+    "uuid": "435d35bd-c61d-46ac-a4fc-28e6995198f2",
+    "path": "assets/LevelScripts/ToiletBrushDrag24.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "TouchFriction_yygh",
+    "uuid": "2b2a293d-8fbd-4d45-b169-8554ed990a62",
+    "path": "assets/LevelScripts/TouchFriction_yygh.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "dragmove",
+    "uuid": "22de5a9b-0ba4-46d2-9f78-fbfa581696c8",
+    "path": "assets/LevelScripts/dragmove.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_btdw",
+    "uuid": "d2febe70-7f0d-4a5b-9b4d-b7bd4bba0301",
+    "path": "assets/LevelScripts/level_btdw.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_fault_atsth",
+    "uuid": "b1fdf95a-80f5-4fb0-9a87-eea102069dc0",
+    "path": "assets/LevelScripts/level_fault_atsth.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_fault_dtbwmxw",
+    "uuid": "79d56b40-9c40-4f01-b42a-fbb9ad2649f1",
+    "path": "assets/LevelScripts/level_fault_dtbwmxw.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_fault_kbgjc",
+    "uuid": "e1f06f44-ec2c-4649-b116-5a8a06f46d7c",
+    "path": "assets/LevelScripts/level_fault_kbgjc.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_fault_kbjd",
+    "uuid": "566c816f-7b0c-4aa4-b2ff-615a33bf9f58",
+    "path": "assets/LevelScripts/level_fault_kbjd.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_fault_tgnt",
+    "uuid": "d6a3686e-ada3-4c17-80ae-165c7b41304b",
+    "path": "assets/LevelScripts/level_fault_tgnt.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_afbb",
+    "uuid": "3fc8d922-6e4a-49fa-9be0-546d7382a812",
+    "path": "assets/LevelScripts/level_full_afbb.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_ajbs",
+    "uuid": "75a1e8dc-3f42-4949-90ce-da429ffd163c",
+    "path": "assets/LevelScripts/level_full_ajbs.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_dtql",
+    "uuid": "348306cd-59c7-4eeb-ae0d-27694ed9c47c",
+    "path": "assets/LevelScripts/level_full_dtql.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_fzny",
+    "uuid": "c0aa321d-1ae4-4beb-a041-7f030078e2b0",
+    "path": "assets/LevelScripts/level_full_fzny.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_gsl",
+    "uuid": "fee15c2e-189d-4044-bc07-0c40cd6c61ad",
+    "path": "assets/LevelScripts/level_full_gsl.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_gxhxz",
+    "uuid": "dc86bb57-575a-4d91-bbe2-1e94b1102375",
+    "path": "assets/LevelScripts/level_full_gxhxz.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_jjsg",
+    "uuid": "75bc095e-3993-433b-b7f6-bb777a5824a4",
+    "path": "assets/LevelScripts/level_full_jjsg.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_jjxz_ghost",
+    "uuid": "616b1d1c-c265-4d60-8259-6adb68b5d142",
+    "path": "assets/LevelScripts/level_full_jjxz_ghost.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_jjxz",
+    "uuid": "97374428-e67c-47b4-b761-3dfacd01024f",
+    "path": "assets/LevelScripts/level_full_jjxz.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_jplt_bg_loop",
+    "uuid": "ba65ec12-adfd-4cae-9245-cea96cede857",
+    "path": "assets/LevelScripts/level_full_jplt_bg_loop.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_jplt",
+    "uuid": "b2d0c89d-5cfa-4f1b-9943-67a1513d93db",
+    "path": "assets/LevelScripts/level_full_jplt.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_jsst",
+    "uuid": "09ce7efc-bf45-425c-83ab-c7d7f721a4db",
+    "path": "assets/LevelScripts/level_full_jsst.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_kqlyyj",
+    "uuid": "2609aed6-25b3-4e36-9ba3-599aa2785456",
+    "path": "assets/LevelScripts/level_full_kqlyyj.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_kzydnx",
+    "uuid": "025d9cef-fc12-473e-815c-6991058c26cb",
+    "path": "assets/LevelScripts/level_full_kzydnx.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_lywj",
+    "uuid": "a1e1c7c2-3280-40ef-b8e0-6b011695e40d",
+    "path": "assets/LevelScripts/level_full_lywj.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_mnhz",
+    "uuid": "ae002aed-8955-4462-95f1-58741e9e2369",
+    "path": "assets/LevelScripts/level_full_mnhz.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_pqqz",
+    "uuid": "485953df-a499-4b9f-beb8-d2f10cacebbb",
+    "path": "assets/LevelScripts/level_full_pqqz.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_pwby",
+    "uuid": "c8e587ff-49b0-4e19-b5f0-8bb81557eb6b",
+    "path": "assets/LevelScripts/level_full_pwby.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_qcqz",
+    "uuid": "20f8dfe5-e9e3-4396-88bb-ba9aa4db8d20",
+    "path": "assets/LevelScripts/level_full_qcqz.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_qjf",
+    "uuid": "e0d7096a-ab65-4504-81a6-e25fe4ff8ef5",
+    "path": "assets/LevelScripts/level_full_qjf.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_qjws",
+    "uuid": "d12953ea-f1d6-400f-8b25-301c391e6680",
+    "path": "assets/LevelScripts/level_full_qjws.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_qrwz",
+    "uuid": "16cf984c-2e6f-4fba-ac2f-16048055ed13",
+    "path": "assets/LevelScripts/level_full_qrwz.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_scs",
+    "uuid": "763814c9-7897-4818-923c-7d59b5c4d587",
+    "path": "assets/LevelScripts/level_full_scs.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_sjl",
+    "uuid": "3fb02cab-7350-4f0c-9f97-54240b7ad38a",
+    "path": "assets/LevelScripts/level_full_sjl.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_ssfj",
+    "uuid": "522e79c5-94d4-450a-8923-15ab147d4816",
+    "path": "assets/LevelScripts/level_full_ssfj.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_ssjh",
+    "uuid": "bd35e9a3-5dd6-4024-9634-6999399d1be7",
+    "path": "assets/LevelScripts/level_full_ssjh.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_sssp",
+    "uuid": "acec535b-602d-42ac-922f-b0db101b1528",
+    "path": "assets/LevelScripts/level_full_sssp.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_sstz",
+    "uuid": "2655f91a-54b6-4fac-a206-cd669b31d40d",
+    "path": "assets/LevelScripts/level_full_sstz.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_sswj",
+    "uuid": "5e8f544d-86cb-4508-82ce-618d8fb336f1",
+    "path": "assets/LevelScripts/level_full_sswj.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_tlwx",
+    "uuid": "7f56139b-6643-4557-8966-2f0cb609f226",
+    "path": "assets/LevelScripts/level_full_tlwx.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_wnzf",
+    "uuid": "bd8955cc-a9ec-4ddf-b0b2-92b714c52ffb",
+    "path": "assets/LevelScripts/level_full_wnzf.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_wwe",
+    "uuid": "b3446800-d07a-457f-9739-b2734a9ac112",
+    "path": "assets/LevelScripts/level_full_wwe.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_xwz",
+    "uuid": "036206c0-459b-4681-9d03-7f8b85555a56",
+    "path": "assets/LevelScripts/level_full_xwz.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_xzwf",
+    "uuid": "8c898716-4db7-4080-9c6f-b55be7028344",
+    "path": "assets/LevelScripts/level_full_xzwf.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_ycfh",
+    "uuid": "d3c5aad5-16e7-47b1-9227-76d6c70bc01f",
+    "path": "assets/LevelScripts/level_full_ycfh.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_ypwj",
+    "uuid": "cb711728-d3fe-490d-b11a-fd043e833e50",
+    "path": "assets/LevelScripts/level_full_ypwj.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_yygh",
+    "uuid": "9f6d7022-0a43-412e-b5c0-c0c2d4093933",
+    "path": "assets/LevelScripts/level_full_yygh.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_zbt",
+    "uuid": "6d7aad44-26b9-4645-a752-65419d85ddfd",
+    "path": "assets/LevelScripts/level_full_zbt.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_zdsyr",
+    "uuid": "0dbcab8a-16ec-44cc-a412-0c53688ab878",
+    "path": "assets/LevelScripts/level_full_zdsyr.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_zjjs_005",
+    "uuid": "b45439ae-a554-4466-a1d2-98e22a0313a3",
+    "path": "assets/LevelScripts/level_full_zjjs_005.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_zjjs_nvzhujiao",
+    "uuid": "5aa4ef16-a897-445e-bf93-59b066e4c0c8",
+    "path": "assets/LevelScripts/level_full_zjjs_nvzhujiao.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_zjjs",
+    "uuid": "23619689-8886-4637-98f4-855e75cd02bc",
+    "path": "assets/LevelScripts/level_full_zjjs.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_zpdd",
+    "uuid": "318379bf-b408-4762-9440-8009677ee9c3",
+    "path": "assets/LevelScripts/level_full_zpdd.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_zsfc",
+    "uuid": "fb6c355f-7449-40a7-b750-4098a11f052b",
+    "path": "assets/LevelScripts/level_full_zsfc.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_full_zzny",
+    "uuid": "b2ccd4ea-592e-4133-af4d-1fc0f277a09b",
+    "path": "assets/LevelScripts/level_full_zzny.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_hbzy",
+    "uuid": "d432b7ed-7a3a-42ba-9d2c-9de26a5c7914",
+    "path": "assets/LevelScripts/level_hbzy.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_help_xcxjj_bg_loop",
+    "uuid": "9df791bb-7629-4328-b869-951759eacd85",
+    "path": "assets/LevelScripts/level_help_xcxjj_bg_loop.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_help_xcxjj_drag",
+    "uuid": "04a4c738-68ae-4b87-ac53-5b2a0ff5e87c",
+    "path": "assets/LevelScripts/level_help_xcxjj_drag.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_help_xcxjj",
+    "uuid": "06ccee79-4f8c-40a6-b6dc-b93debbc48b2",
+    "path": "assets/LevelScripts/level_help_xcxjj.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_hzjqfg",
+    "uuid": "b0fb2e8c-c194-4e8e-8166-4294134aa92f",
+    "path": "assets/LevelScripts/level_hzjqfg.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_jhzr",
+    "uuid": "79183098-dcdc-43f6-911f-6d55ad3d5377",
+    "path": "assets/LevelScripts/level_jhzr.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_lpsk",
+    "uuid": "b13c0547-5e85-40f1-b30f-cbf47b8d648c",
+    "path": "assets/LevelScripts/level_lpsk.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_orbit_10001",
+    "uuid": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "path": "assets/LevelScripts/level_orbit_10001.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_qlyx",
+    "uuid": "71e6bd67-d551-4188-9ddd-884b8e410517",
+    "path": "assets/LevelScripts/level_qlyx.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_ssnds",
+    "uuid": "d0faf4fc-5c1b-490c-8dc8-67cd72c0306c",
+    "path": "assets/LevelScripts/level_ssnds.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_stepflow_gym_example",
+    "uuid": "68748f5a-d609-4a30-af06-7e1b232140b2",
+    "path": "assets/LevelScripts/level_stepflow_gym_example.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_xbyx_bg_loop_anim",
+    "uuid": "e13eecc3-401f-45ee-aabf-c3441d2a18c3",
+    "path": "assets/LevelScripts/level_xbyx_bg_loop_anim.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_xbyx",
+    "uuid": "0046d389-8789-46c7-8668-bbae6550ea60",
+    "path": "assets/LevelScripts/level_xbyx.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "level_ycxy",
+    "uuid": "1d28b03f-654d-496e-8829-a2ac57ce655c",
+    "path": "assets/LevelScripts/level_ycxy.ts"
+  },
+  {
+    "bundle": "LevelScripts",
+    "id": "wipeCom",
+    "uuid": "ea1d13fd-f7a8-4ee4-9f14-c2948a9a585f",
+    "path": "assets/LevelScripts/wipeCom.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AdComponentBase",
+    "uuid": "fe3cac3e-a9a5-4eac-b2f1-591dd7698afa",
+    "path": "assets/libs/ad/component/AdComponentBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AdConfig",
+    "uuid": "d4039c8d-eadf-49eb-81dd-ecf3b99ae54c",
+    "path": "assets/libs/mc/config/AdConfig.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AdManager",
+    "uuid": "852a4e79-c8e4-4d8f-b75e-ab3888f4f1c1",
+    "path": "assets/libs/ad/manager/AdManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AdModel",
+    "uuid": "c345bef9-c4be-4b01-a8c5-bf2c7c24f470",
+    "path": "assets/libs/mc/model/AdModel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AnimUtils",
+    "uuid": "bddc3480-578e-4a60-8a72-6e36882777fd",
+    "path": "assets/libs/utils/AnimUtils.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AppBase",
+    "uuid": "7109fb3c-76bf-43cf-836e-ccddd3326f1a",
+    "path": "assets/libs/core/AppBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AppManager",
+    "uuid": "0d398610-70c7-4ea8-8e2a-78401e8e7c9f",
+    "path": "assets/libs/core/manager/AppManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AppModel",
+    "uuid": "18e01771-0b12-4e04-9198-9ea6e9f8bdd9",
+    "path": "assets/libs/mc/model/AppModel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ArcProgressBar",
+    "uuid": "048342c1-498d-4c20-949c-a95818fef97c",
+    "path": "assets/libs/components/charts/ArcProgressBar.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AudioConfig",
+    "uuid": "ea9c7381-d299-440b-8ccb-d3158b976b0d",
+    "path": "assets/libs/mc/config/AudioConfig.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AudioManager",
+    "uuid": "68d25b5c-33f8-44d7-bba8-53e77b874027",
+    "path": "assets/libs/audio/manager/AudioManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AudioModel",
+    "uuid": "e0827dc0-1d62-43be-9e2b-ca4d70eaef25",
+    "path": "assets/libs/mc/model/AudioModel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Audio",
+    "uuid": "fedffc58-4031-430f-946f-d391a0f95237",
+    "path": "assets/core/Script_core/core/Audio.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AuthenticationConfig",
+    "uuid": "797b820b-35b4-4563-bad7-7c68ef64949d",
+    "path": "assets/libs/mc/config/AuthenticationConfig.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "AuthorizeUserInfoButton",
+    "uuid": "b19c4473-0716-47d7-aa23-d7584615fea5",
+    "path": "assets/libs/components/open/AuthorizeUserInfoButton.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "BannerAdComponent",
+    "uuid": "5945292d-3f45-4a2f-9ab8-1d629023230c",
+    "path": "assets/libs/ad/component/BannerAdComponent.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "BasePanel",
+    "uuid": "12ddf897-19b5-41d1-a4a6-c2e8e465c025",
+    "path": "assets/mini_game/scripts/base/BasePanel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "BaseView",
+    "uuid": "016d0bec-9719-45aa-af77-ccd2af0d31fa",
+    "path": "assets/core/Script_core/core/BaseView.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Base",
+    "uuid": "a37f271c-28fb-4e4e-9289-b948df803d1e",
+    "path": "assets/core/Script_core/core/Base.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "CaptureUtils",
+    "uuid": "1bb09cc8-c2f1-4e01-a6d4-1d77ba324995",
+    "path": "assets/libs/utils/CaptureUtils.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ComView",
+    "uuid": "8fe3eee3-2e23-4bb8-928f-5edd374d6b7e",
+    "path": "assets/core/Script_core/core/ComView.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ComponentBase",
+    "uuid": "fb1f334f-08c1-4af8-82a2-0d218bb247ec",
+    "path": "assets/libs/core/base/ComponentBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ConfigData",
+    "uuid": "defd91b8-d584-4cde-8193-f2dd08fb2a6a",
+    "path": "assets/core/Script_core/core/ConfigData.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ConfigManager",
+    "uuid": "afd93e9e-1d12-41da-a5ff-928dda99cc97",
+    "path": "assets/libs/core/manager/ConfigManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Config_Xbycsj",
+    "uuid": "94709759-85af-49f8-8d1c-f79e361c5bfa",
+    "path": "assets/xbycsj_script/Config_Xbycsj.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "CoreView",
+    "uuid": "7017d913-fc92-43e7-a77c-2e5a36f3d9ea",
+    "path": "assets/core/Script_core/core/CoreView.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "CryptoUtil",
+    "uuid": "00ae440c-2c84-4e3c-8ee0-f8c27b497b60",
+    "path": "assets/libs/core/utils/CryptoUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "CustomButton",
+    "uuid": "310e1ef6-e5ba-4853-b46d-cf18d9f4ca7d",
+    "path": "assets/libs/component/CustomButton.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "CustomToggle",
+    "uuid": "38c84b29-6451-45a8-9423-c3693f7bc962",
+    "path": "assets/libs/components/CustomToggle.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "CustomWidgetEx",
+    "uuid": "b8899f38-1b0c-4326-aee0-1cfea314cd78",
+    "path": "assets/core/Util/CustomWidgetEx.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "CustomWidget",
+    "uuid": "2a125658-8c8d-4c8c-89bd-091f6cf0c4c6",
+    "path": "assets/libs/components/CustomWidget.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "CustomerServiceConversationButton",
+    "uuid": "41038940-026b-4e95-9824-8b2c3d8e2897",
+    "path": "assets/libs/components/open/CustomerServiceConversationButton.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "DMPConfig",
+    "uuid": "5107e198-75bc-4c3a-9585-2190c92f1a4d",
+    "path": "assets/libs/mc/config/DMPConfig.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "DMPModel",
+    "uuid": "b0acce45-c591-44a6-8ff8-db726d8bc605",
+    "path": "assets/libs/mc/model/DMPModel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "DeviceRiskConfig",
+    "uuid": "9f71d619-cd8e-4b73-b41d-d4b06eb75d54",
+    "path": "assets/libs/mc/config/DeviceRiskConfig.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "EngineUtil",
+    "uuid": "b7aed1d8-d9b4-46e0-9fde-6780b48e7df1",
+    "path": "assets/libs/core/utils/EngineUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "EventManager",
+    "uuid": "e4900694-c08c-4e97-b762-9cc52bbe2953",
+    "path": "assets/libs/core/manager/EventManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Event",
+    "uuid": "6117cd26-7407-4eb7-b1c8-3d9ba1b4457c",
+    "path": "assets/core/Script_core/core/Event.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Expand",
+    "uuid": "0dd10566-9926-4901-948b-b0aa2bd0ce74",
+    "path": "assets/core/Script_core/Expand.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ExtView",
+    "uuid": "7535eeab-a341-4e61-ac5b-e6b53fa4e294",
+    "path": "assets/core/Script_core/core/ExtView.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "FfmpegH264Decoder",
+    "uuid": "d88c6b2f-9961-452e-bae5-5e183e08caa1",
+    "path": "assets/scripts/video-player/soft/FfmpegH264Decoder.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "FragmentBase",
+    "uuid": "0f1d9787-b822-4209-8002-ca8523756a66",
+    "path": "assets/libs/fragment/base/FragmentBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "FrameAnim",
+    "uuid": "6e00fe72-d612-4a40-891b-81ef9dd44a96",
+    "path": "assets/libs/component/FrameAnim.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Fun",
+    "uuid": "f83d39d1-5a28-4ef9-a6b4-00e4195b6b3f",
+    "path": "assets/core/Script_core/core/Fun.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "GameBase",
+    "uuid": "5efd7258-1748-4ee9-8fd0-be7b146c793d",
+    "path": "assets/mini_game/scripts/base/GameBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "GameComponent",
+    "uuid": "c0615406-1a7b-4c5f-85ab-abd4715b6917",
+    "path": "assets/libs/component/GameComponent.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "GameData",
+    "uuid": "7eb4bdd7-35ed-426c-a099-b55b2c09aae6",
+    "path": "assets/GameData.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "GameMgr_Xbycsj",
+    "uuid": "28bc486f-512b-403f-8e52-1365d4f3e198",
+    "path": "assets/xbycsj_script/GameMgr_Xbycsj.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "GameRecorder",
+    "uuid": "35164edf-1f64-4871-9ded-9faed5f55304",
+    "path": "assets/libs/components/GameRecorder.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "HotUpdateManager",
+    "uuid": "3146017f-53b5-431f-bd09-1d1b07f25ad9",
+    "path": "assets/libs/hot-update/HotUpdateManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "HttpHelper",
+    "uuid": "9ab9bc9f-24e4-426f-abea-453e1a3719e6",
+    "path": "assets/core/Util/HttpHelper.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "HttpManager",
+    "uuid": "709ceb19-de1b-4bd5-964f-77ea68465434",
+    "path": "assets/libs/core/manager/HttpManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "JoinGroupButton",
+    "uuid": "2ded3028-0da9-45e4-894c-e6e8ef410ecd",
+    "path": "assets/libs/components/open/JoinGroupButton.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Joystick",
+    "uuid": "e34b9569-62c2-4f49-8571-4e0cdb5cf46c",
+    "path": "assets/libs/component/Joystick.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "LanguageTranslation",
+    "uuid": "435c7ea7-6129-45ea-adf8-e37414af5788",
+    "path": "assets/libs/LanguageTranslation.js"
+  },
+  {
+    "bundle": "main",
+    "id": "ListItem",
+    "uuid": "b9fb4998-6f11-421b-a49c-bd8624b6d73c",
+    "path": "assets/libs/component/list/ListItem.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "List",
+    "uuid": "0dc5f0be-edf3-47ee-b22f-2a0daa7e7c4b",
+    "path": "assets/libs/component/list/List.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "LoadSceneBase",
+    "uuid": "f0bff16b-e393-489c-a67e-b7ad3ff0c5eb",
+    "path": "assets/libs/scene/load/LoadSceneBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Logger",
+    "uuid": "375c641f-e3b4-43e9-b998-a02ea95c28e4",
+    "path": "assets/libs/core/utils/Logger.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "LoginModel",
+    "uuid": "0ae28eaf-fa26-4211-91b9-770c89c774af",
+    "path": "assets/libs/mc/model/LoginModel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "MathUtil",
+    "uuid": "2e69e810-a353-4295-be42-3f0876a80e60",
+    "path": "assets/libs/core/utils/MathUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Md5",
+    "uuid": "db7da7ab-76b0-45f4-8199-6ebe312b0884",
+    "path": "assets/libs/core/utils/Md5.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "MiniAdManager",
+    "uuid": "2fa68d06-b0a2-47bc-bd82-e079f415a0e9",
+    "path": "assets/mini_game/scripts/base/MiniAdManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "MiniAudioManager",
+    "uuid": "79a53687-e89a-4f28-833c-349a9d5aa815",
+    "path": "assets/mini_game/scripts/base/MiniAudioManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "MiniConfigManager",
+    "uuid": "a2a18242-79bc-4710-abe7-4f26c3f73ee1",
+    "path": "assets/mini_game/scripts/base/MiniConfigManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "MiniEventManager",
+    "uuid": "b3ffe625-a297-4944-8e4c-52c7549c8ded",
+    "path": "assets/mini_game/scripts/base/MiniEventManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ModelBase",
+    "uuid": "1819f912-4d57-4ce7-8728-0d7b403bf01a",
+    "path": "assets/libs/core/base/ModelBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Mp4Demuxer",
+    "uuid": "160bf72c-ef56-462b-a9d6-0666bb848f86",
+    "path": "assets/scripts/video-player/soft/Mp4Demuxer.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "NativeAdComponent",
+    "uuid": "15af84cf-9caa-4ee7-ba17-f509b545bb98",
+    "path": "assets/libs/ad/component/NativeAdComponent.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "NativeAssetLoader",
+    "uuid": "8191fdf2-a55e-4684-b398-9e130d913717",
+    "path": "assets/scripts/video-player/soft/NativeAssetLoader.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "PageVideoExample",
+    "uuid": "902512f6-eb2b-4e07-8e63-0f9e7ad0f8ca",
+    "path": "assets/scripts/examples/PageVideoExample.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "PanelManager",
+    "uuid": "efba1d50-6857-4532-a0bb-82c614d66f48",
+    "path": "assets/mini_game/scripts/base/PanelManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "PlatformBase",
+    "uuid": "f657c3d3-787e-45c6-8672-7d437cc601c4",
+    "path": "assets/core/Platform/PlatformBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "PlatformTT",
+    "uuid": "284adba9-af94-4525-83d0-f46bace3b821",
+    "path": "assets/core/Platform/PlatformTT.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "PlatformWX",
+    "uuid": "35774ded-d9c1-4a9a-b8b1-8bebe7d3b0c3",
+    "path": "assets/core/Platform/PlatformWX.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Platform",
+    "uuid": "725930c2-db63-4371-8d21-17ce126f8c11",
+    "path": "assets/core/Platform/Platform.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "PlayerInfo",
+    "uuid": "5e4fc67f-c886-44b8-98f8-8d727667812b",
+    "path": "assets/mini_game/scripts/base/PlayerInfo.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Playinfo",
+    "uuid": "5e332cd3-c3f1-47ad-9c72-fe8446356214",
+    "path": "assets/core/Script_core/core/Playinfo.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "PopupBase",
+    "uuid": "1a97a79e-96c1-4dca-b529-3c961362fa39",
+    "path": "assets/libs/popup/base/PopupBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "PopupManager",
+    "uuid": "eab294b0-88da-4939-b6df-c706d6481018",
+    "path": "assets/libs/popup/manager/PopupManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Port",
+    "uuid": "385211fa-1367-4dcc-bfd1-f680203183fe",
+    "path": "assets/core/Script_core/core/Port.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "RadarChart",
+    "uuid": "004b61b2-7d32-4537-ae84-e9e94cf1fe44",
+    "path": "assets/libs/components/charts/RadarChart.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "RandomUtil",
+    "uuid": "1a44dd92-48b1-45c6-811c-47e0a33405c4",
+    "path": "assets/libs/core/utils/RandomUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "RenderUtil",
+    "uuid": "8335c005-e947-4750-b95b-76946f7774d6",
+    "path": "assets/libs/utils/RenderUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ReportManager",
+    "uuid": "26e8e0af-ef2a-45b7-a2e9-be80705ca502",
+    "path": "assets/libs/report/ReportManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ResManager",
+    "uuid": "13282694-2a2c-4c4a-b07d-33104027f167",
+    "path": "assets/mini_game/scripts/base/ResManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Res",
+    "uuid": "9714bf49-a23d-4eaa-85bc-d73c47063b2d",
+    "path": "assets/core/Script_core/core/Res.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "SceneBase",
+    "uuid": "2f20b7f7-295e-49d1-a849-8d88b85fcb2e",
+    "path": "assets/libs/scene/component/SceneBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "SceneManager",
+    "uuid": "61f3d26b-942d-4d53-a480-761b07ccebe1",
+    "path": "assets/libs/scene/manager/SceneManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "SdkBridge",
+    "uuid": "155c8d13-d3ee-4465-b031-c3d392d8d12c",
+    "path": "assets/libs/SdkBridge.js"
+  },
+  {
+    "bundle": "main",
+    "id": "ShareUtil",
+    "uuid": "d0bf1cce-151a-4c55-b452-cf24fa9c797b",
+    "path": "assets/libs/utils/ShareUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ShortcutButton",
+    "uuid": "f6150068-aa76-441a-aed7-47baa8e7ce3b",
+    "path": "assets/libs/components/open/ShortcutButton.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Singleton",
+    "uuid": "402950b9-66f0-437e-8357-5597d3630261",
+    "path": "assets/core/Script/Singleton.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "SoftVideoStrategy",
+    "uuid": "a579f6a5-20cd-4815-be40-a3c5ed49e909",
+    "path": "assets/scripts/video-player/soft/SoftVideoStrategy.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "SpineEx",
+    "uuid": "c4c5b1ef-2b03-4c8e-b293-a40e1286ce4c",
+    "path": "assets/libs/utils/SpineEx.js"
+  },
+  {
+    "bundle": "main",
+    "id": "SqlUtil",
+    "uuid": "dd1c8967-4a5e-47ac-9f3c-e6e95f153bcc",
+    "path": "assets/libs/core/utils/SqlUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "StringUtil",
+    "uuid": "8a6c1e2e-4062-4959-92e9-cac2481e53c4",
+    "path": "assets/libs/core/utils/StringUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "StyleSpriteFrame",
+    "uuid": "a2c78773-806d-43cd-91ef-1e2ff3e1b403",
+    "path": "assets/libs/component/StyleSpriteFrame.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "TDSdk",
+    "uuid": "204a130f-5cf3-463b-a66b-93e890854070",
+    "path": "assets/libs/utils/TDSdk.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "TalkingData",
+    "uuid": "50d684ac-b37e-4311-b268-3a8185afca8b",
+    "path": "assets/libs/utils/TalkingData.js"
+  },
+  {
+    "bundle": "main",
+    "id": "TimeUtil",
+    "uuid": "b62da058-d0fd-468a-94d5-5d744e87656c",
+    "path": "assets/libs/core/utils/TimeUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Time",
+    "uuid": "2b7565a7-394a-4360-9cb7-8579379a0843",
+    "path": "assets/core/Script_core/core/Time.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Toast",
+    "uuid": "3e7194af-abe7-432d-8990-afd574df4e2a",
+    "path": "assets/libs/component/Toast.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "Tools",
+    "uuid": "a9cd0538-b489-4615-8869-a4974ddb757c",
+    "path": "assets/mini_game/scripts/base/Tools.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "TypeUtil",
+    "uuid": "f7a0ccb3-3664-475c-83e5-4881acf996fe",
+    "path": "assets/libs/core/utils/TypeUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "UIView",
+    "uuid": "46bfc78c-de5f-42ee-aafa-849740b47fea",
+    "path": "assets/core/Script_core/core/UIView.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "VideoDPComponent",
+    "uuid": "c168bedf-6bcd-4243-8ca3-bb6a176e7929",
+    "path": "assets/libs/ad/component/VideoDPComponent.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "VideoPlayer",
+    "uuid": "b05ad3c3-22d7-4432-8a84-6ebf1ef36b79",
+    "path": "assets/scripts/video-player/VideoPlayer.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "VideoTypes",
+    "uuid": "969b6159-17df-4b2c-9f3c-b4064f9f3de9",
+    "path": "assets/scripts/video-player/soft/VideoTypes.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ViewBase",
+    "uuid": "d8ef63ea-523b-436d-9035-0d93173e4cfc",
+    "path": "assets/mini_game/scripts/base/ViewBase.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ViewDPComponent",
+    "uuid": "2bfb8e38-f326-4111-807a-8e99686e460a",
+    "path": "assets/libs/ad/component/ViewDPComponent.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ViewGroupNesting",
+    "uuid": "bbd687ab-2ae2-4a47-bebb-497ff228cd98",
+    "path": "assets/libs/component/list/ViewGroupNesting.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ViewMsg",
+    "uuid": "36b24754-dfd3-416a-beca-441354f33432",
+    "path": "assets/core/Script_core/core/ViewMsg.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "View",
+    "uuid": "c952c0c0-faa6-4bf4-9590-79d6ae3fe24b",
+    "path": "assets/core/Script_core/core/View.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "WSManager",
+    "uuid": "11a631bd-71f1-4f23-87e6-066a6a9b16ae",
+    "path": "assets/libs/core/manager/WSManager.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "XGameHttp",
+    "uuid": "b89b6653-beb1-43e6-8053-7680456b6a3a",
+    "path": "assets/libs/net/XGameHttp.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ZSBgFit",
+    "uuid": "794df81f-7c3d-429a-8feb-a1aab79534eb",
+    "path": "assets/libs/component/ZSBgFit.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ZSConfig",
+    "uuid": "bd22750a-83c8-4bdb-a534-5c4a14b48081",
+    "path": "assets/libs/mc/config/ZSConfig.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ZSFollowButton",
+    "uuid": "191e1872-2a67-4313-b283-af0b6c03fa01",
+    "path": "assets/libs/component/ZSFollowButton.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ZSHttp",
+    "uuid": "53511734-164f-43bb-beb5-78751d59d594",
+    "path": "assets/libs/net/ZSHttp.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "ZSUtil",
+    "uuid": "c453290a-fb69-4b23-935f-e805823832e9",
+    "path": "assets/libs/core/utils/ZSUtil.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "crypto-js",
+    "uuid": "dd833f3a-05df-4dea-8db1-aba38275ee52",
+    "path": "assets/libs/core/utils/crypto-js.js"
+  },
+  {
+    "bundle": "main",
+    "id": "game.config",
+    "uuid": "640dea94-9696-4c9f-9b04-1867c01376a8",
+    "path": "assets/game.config.js"
+  },
+  {
+    "bundle": "main",
+    "id": "gamePanel",
+    "uuid": "841934b1-71cd-4720-a71a-b852e6cd535b",
+    "path": "assets/mini_game/scripts/game/gamePanel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "gameScene",
+    "uuid": "102c0b7b-974f-4f16-9f5f-19a19c4fb5e8",
+    "path": "assets/mini_game/scripts/game/gameScene.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "homePanel",
+    "uuid": "ee6e800b-57ff-4d18-8a04-d8bcc0de830e",
+    "path": "assets/mini_game/scripts/home/homePanel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "init",
+    "uuid": "a13701b2-eeeb-47aa-8935-cf58caf38590",
+    "path": "assets/core/Script_core/init.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "jsencrypt.min",
+    "uuid": "e761d91a-b419-48eb-9e7d-98557abf8d77",
+    "path": "assets/libs/core/utils/jsencrypt.min.js"
+  },
+  {
+    "bundle": "main",
+    "id": "levelCtrl",
+    "uuid": "ce81002e-9453-4fa0-a8ca-032d8ffc1403",
+    "path": "assets/levelCtrl.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "libav_h264_glue",
+    "uuid": "ef1cefff-78ef-4e31-bdbb-f52b66b03e9f",
+    "path": "assets/scripts/video-player/soft/lib/libav_h264_glue.js"
+  },
+  {
+    "bundle": "main",
+    "id": "login",
+    "uuid": "73d883c8-13e0-468f-98d7-8ebb5648307e",
+    "path": "assets/login/login/login.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "miniLevelItem",
+    "uuid": "5e4a13c7-e967-4c20-98cc-b1c90728035c",
+    "path": "assets/mini_game/scripts/select/miniLevelItem.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "selectPanel",
+    "uuid": "de0dbe37-a5c6-410c-a547-fed3329866d2",
+    "path": "assets/mini_game/scripts/select/selectPanel.ts"
+  },
+  {
+    "bundle": "main",
+    "id": "sub",
+    "uuid": "e861f0a8-8284-4494-a8f9-a84727128aa0",
+    "path": "assets/core/Script/sub.ts"
+  },
+  {
+    "bundle": "ZSC",
+    "id": "ZSAgeTipPopup",
+    "uuid": "58d98cb7-286a-4a4c-bb73-c87ad07409e5",
+    "path": "assets/zsmp/bundles/common/scripts/ZSAgeTipPopup.ts"
+  },
+  {
+    "bundle": "ZSC",
+    "id": "ZSAntiAddictionPopup",
+    "uuid": "0ca9922c-89bd-4d08-816f-80423df2420b",
+    "path": "assets/zsmp/bundles/common/scripts/ZSAntiAddictionPopup.ts"
+  },
+  {
+    "bundle": "ZSC",
+    "id": "ZSCertificationPopup",
+    "uuid": "b26833c8-3d77-4f90-8af4-28cd444fad9d",
+    "path": "assets/zsmp/bundles/common/scripts/ZSCertificationPopup.ts"
+  },
+  {
+    "bundle": "ZSC",
+    "id": "ZSLoginPopup",
+    "uuid": "5269299c-9125-4490-b373-18babbe0a4e6",
+    "path": "assets/zsmp/bundles/common/scripts/ZSLoginPopup.ts"
+  },
+  {
+    "bundle": "ZSC",
+    "id": "ZSTipPopup",
+    "uuid": "67a4828d-5345-42f2-a87c-faa03b098b00",
+    "path": "assets/zsmp/bundles/common/scripts/ZSTipPopup.ts"
+  },
+  {
+    "bundle": "ZSC",
+    "id": "ZSWebViewPopup",
+    "uuid": "21675c20-7018-4837-b573-797181fae683",
+    "path": "assets/zsmp/bundles/common/scripts/ZSWebViewPopup.ts"
+  }
+]

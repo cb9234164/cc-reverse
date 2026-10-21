@@ -209,13 +209,19 @@ function detectProjectFlavor(sourcePath) {
   }
 
   // 2.4.x marker: src/settings.js containing `window._CCSettings = { ... }`.
-  const settings2xPath = path.join(sourcePath, 'src', 'settings.js');
+  const settings2xName = fs.existsSync(srcDir)
+    ? (fs.existsSync(path.join(srcDir, 'settings.js')) ? 'settings.js'
+      : fs.readdirSync(srcDir).sort().find(f => /^settings(?:\.[^.]+)?\.js$/.test(f)))
+    : null;
+  const settings2xPath = path.join(srcDir, settings2xName || 'settings.js');
   if (fs.existsSync(settings2xPath)) {
     try {
       const text = fs.readFileSync(settings2xPath, 'utf-8');
       if (text.includes('_CCSettings') || text.includes('CCSettings')) {
         const settings = parseCCSettingsScript(text);
-        return { flavor: '2.4.x-bundle', settings, version: settings.CCSettings?.engineVersion };
+        const engineName = fs.readdirSync(sourcePath).find(f => /^cocos2d-js.*\.js$/.test(f));
+        const engineVersion = engineName && fs.readFileSync(path.join(sourcePath, engineName), 'utf8').match(/ENGINE_VERSION\s*=\s*["'](2\.4\.\d+)["']/);
+        return { flavor: '2.4.x-bundle', settings, version: settings.engineVersion || engineVersion?.[1] };
       }
     } catch {
       // fall through
@@ -1564,7 +1570,7 @@ async function* walkJsFiles(root) {
 
 async function writeScriptMeta(scriptPath, uuidHint) {
   let uuid = uuidHint || null;
-  if (uuid && uuid.length === 22) {
+  if (uuid && (uuid.length === 22 || uuid.length === 23)) {
     uuid = uuidUtils.decodeUuid(uuid) || uuid;
   }
   if (!uuid) uuid = uuidUtils.generateUuid();

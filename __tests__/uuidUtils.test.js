@@ -1,6 +1,14 @@
 const { uuidUtils } = require('../src/utils/uuidUtils');
 
 describe('uuidUtils.decodeUuid', () => {
+  it('decodes nibble-aligned 23-char script IDs and preserves suffixes', () => {
+    const input = '73d88PIE+BGj5jXjrtWSDB+';
+    const full = '73d883c8-13e0-468f-98d7-8ebb5648307e';
+    expect(uuidUtils.decodeUuid(input)).toBe(full);
+    expect(uuidUtils.decodeUuid(input + '@script')).toBe(full + '@script');
+    expect(uuidUtils.decodeUuid('73d88PIE+BGj5jXjrtWSDB!')).toBe('73d88PIE+BGj5jXjrtWSDB!');
+  });
+
   it('decodes a plain 22-char compressed uuid', () => {
     const out = uuidUtils.decodeUuid('fcmR3XADNLgJ1ByKhqcC5Z');
     expect(out).toBe('fc991dd7-0033-4b80-9d41-c8a86a702e59');
